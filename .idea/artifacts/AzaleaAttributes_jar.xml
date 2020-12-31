@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="AzaleaAttributes:jar">
+    <output-path>$USER_HOME$/Desktop/rohi server/factions/plugins</output-path>
+    <root id="archive" name="AzaleaAttributes.jar">
+      <element id="module-output" name="AzaleaAttributes" />
+    </root>
+  </artifact>
+</component>

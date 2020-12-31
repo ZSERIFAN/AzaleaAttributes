@@ -1,0 +1,5 @@
+# Configuration file for Azalea Attributes
+# Coded with love <3 by thmihnea
+
+actionbar-message: "&c%currentHealth%/%maxHealth% HP     &3%defense% DEF     &b%currentMana%/%maxMana% MANA"
+defense-reduction-gradient: 150 # Damage will be always reduced by (defense/defense + n), which is a function that converges to 1. n is its gradient, set it carefully.
