@@ -46,6 +46,9 @@ public class HealthAttribute implements Listener {
         nbtItem.setInteger(AttributePlaceholder.ITEM_MANA.getPlaceholder(), 50);
         nbtItem.setInteger(AttributePlaceholder.ITEM_MANA_COST.getPlaceholder(), 30);
         nbtItem.setInteger(AttributePlaceholder.ITEM_DAMAGE.getPlaceholder(), 2000);
+        nbtItem.setInteger(AttributePlaceholder.ITEM_CRIT_CHANCE.getPlaceholder(), 50);
+        nbtItem.setInteger(AttributePlaceholder.ITEM_CRIT_DAMAGE.getPlaceholder(), 200);
+        nbtItem.setInteger(AttributePlaceholder.ITEM_MANA_COST.getPlaceholder(), 30);
         e.getPlayer().getInventory().addItem(nbtItem.getItem());
     }
 }

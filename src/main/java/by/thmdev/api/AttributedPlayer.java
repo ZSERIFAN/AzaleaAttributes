@@ -21,6 +21,8 @@ public class AttributedPlayer implements Attribute {
     private Double critChance;
     private File playerData;
     private Integer regenPer5;
+    private Integer additionalHealth;
+    private Integer additionalDefense;
     private Integer additionalMana;
     private Integer additionalDamage;
     private Integer additionalCritDamage;
@@ -48,6 +50,8 @@ public class AttributedPlayer implements Attribute {
             this.additionalDamage = 0;
             this.additionalCritChance = 0;
             this.additionalCritDamage = 0;
+            this.additionalHealth = 0;
+            this.additionalDefense = 0;
             for (ItemStack item : player.getInventory().getArmorContents()) {
                 if (item == null || item.getType() == Material.AIR) continue;
                 NBTItem nbtItem = new NBTItem(item);
@@ -137,6 +141,22 @@ public class AttributedPlayer implements Attribute {
 
     public Integer getAdditionalCritChance() {
         return this.additionalCritChance;
+    }
+
+    public void setAdditionalHealth(Integer value) {
+        this.additionalHealth = value;
+    }
+
+    public Integer getAdditionalHealth() {
+        return this.additionalHealth;
+    }
+
+    public void setAdditionalDefense(Integer value) {
+        this.additionalDefense = value;
+    }
+
+    public Integer getAdditionalDefense() {
+        return this.additionalDefense;
     }
 
     public void setCurrentMana(Integer value) {

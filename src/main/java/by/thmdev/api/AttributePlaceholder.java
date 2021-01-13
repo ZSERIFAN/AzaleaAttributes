@@ -8,6 +8,8 @@ public enum AttributePlaceholder {
     CRIT_DAMAGE_ARMOR("crit_dmg"),
     CRIT_CHANCE_ARMOR("crit_chance"),
     DAMAGE_ARMOR("damage"),
+    ITEM_HEALTH("bonus-health"),
+    ITEM_DEFENSE("bonus-defense"),
     ITEM_DAMAGE("bonus-damage"),
     ITEM_CRIT_DAMAGE("bonus-critdmg"),
     ITEM_CRIT_CHANCE("bonus-critchance"),
